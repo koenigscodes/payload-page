@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payload</title>
+  <link href="./src/output.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+<body class="font-[Oswald]">
+  <header>
+    <nav id="nav-bar-container" class="font-[oswald] text-[1.1rem] w-full mt-10 md:mt-16 mb-12 md:mb-10">
+      <div id="nav-items-container" class="relative flex items-center justify-between w-full px-8 md:px-12 sm:text-[15px] md:text-lg"> 
+        <div id="left-side-items" class="flex items-center justify-between w-auto">
+          <div class="mr-6 sm:mr-12">
+            <img src="./images/Logo.svg" class="min-w-18 md:min-w-25 w-32" alt="payload-logo">
+          </div>
+          <div class="hidden sm:flex font-normal space-x-6 text-nowrap">
+            <a href="#" class="hover:text-[#358DFF]">Product</a>
+            <a href="#" class="hover:text-[#358DFF]">Pricing</a>
+            <a href="#" class="hover:text-[#358DFF]">For Business</a>
+            <a href="#" class="hover:text-[#358DFF]">For Developers</a>
+          </div>
+        </div>
+        <div id="right-side-items" class="flex ml-3 w-auto">
+          <div class="hidden sm:flex gap-3 text-center text-nowrap">
+            <button><a class="" href="#">Sign In</a></button>
+            <button class="text-white  bg-[#0074B7] rounded-md px-3 py-1">
+              <a href="#">Create Account</a>
+            </button>
+          </div>
+          <div id="harmburger-section" class="">
+            <div id="harmburger-icon" class="sm:hidden">
+              <button id="open-icon" class="cursor-pointer">
+                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.5 9H26.5M5.5 25H26.5H5.5ZM5.5 17H26.5H5.5Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+            <div id="menu-container" class="hidden absolute flex-col text-xl bg-[#FFFFFF] border-1 border-[#358DFF] -top-10 right-0 left-4 space-y-8 shadow-md max-w-[250px] mt-2 z-50 sm:hidden p-5 ">
+              <div>
+                <img class="max-w-32" src="./images/Logo.svg" alt="Logo">
+              </div>
+              <ul id="menu-items" class="space-y-8">
+                <li><a class="hover:text-[#358DFF]" href="#">Product</a></li>
+                <li><a class="hover:text-[#358DFF]" href="#">Pricing</a></li>
+                <li><a class="hover:text-[#358DFF]" href="#">For Business</a></li>
+                <li><a class="hover:text-[#358DFF]" href="#">For Developers</a></li>
+                <li><a class="border-1 border-[#0074B7] text-[#358DFF] rounded-lg px-3.5 py-1.5 text-nowrap" href="#">Sign In</a></li>
+                <li><a class="text-white  bg-[#0074B7] rounded-md px-5 py-2 text-nowrap" href="#">Create Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="hero" class="w-full">
+    <div id="hero-container" class="flex flex-col sm:flex-row items-center sm:items-center sm:justify-between sm:mx-8 md:mx-10 px-4 bg-[#F0F1F2] ">
+      <div class="flex flex-wrap items-center mt-8 mb-10 w-full sm:w-1/2">
+        <div class="flex flex-wrap items-center gap-2 mb-7 md:text-lg">
+          <button class="h-7 rounded-2xl text-white px-2 py-0.5 bg-[#8C6354]">NEW!</button>
+          <p class="text-sm items-center text-black md:text-lg">
+            <span>
+              Introducing the all new documentation for developers
+            </span>
+            <span class="inline-block mb-1.5 w-8 h-[1px] bg-black mx-2 translate-y-[2px]"></span>
+            <a href="#" class="text-[#0074B7] underline">
+              Read More
+            </a>
+          </p>
+        </div>
+      
+        <div class="w-full mb-8 max-w-107 sm:max-w-300 md:text-5xl">
+          <h1 class="text-[32px] font-bold text-[#001F3F] mb-6 leading-snug">
+            Simple, Secure Digital Payments. Global Presence.
+          </h1>
+          <p class="sm:text-sm md:text-lg">
+            We offer a safer and less expensive way to send money to your 
+            loved, Removing barriers, connecting the world.
+          </p>
+        </div>
+
+        <div id="get-started-section" class="flex w-full gap-6 mb-30 sm:mb-12">
+          <button class="w-32 h-12 text-nowrap cursor-pointer bg-[#0074B7] text-white p-2 rounded-xl">
+            Get Started
+          </button>
+          <div class="flex gap-2 items-center">
+            <img class="w-1/2 " src="./images/play.svg" alt="play">
+            <span class="text-sm text-nowrap cursor-pointer text-[#0074B7]">Live Demo</span>
+          </div>
+        </div>
+
+        <div class="mb-24">
+          <span class="">Partners with,</span>
+          <div class="flex space-x-4 w-full mt-3">
+            <img class="h-auto w-24 sm:w-16" src="./images/Coca-Cola_logo 1.svg" alt="cocacola">
+            <img class="h-auto w-24 sm:w-20" src="./images/Microsoft_logo_(2012) 1.svg" alt="microsoft">
+            <img class="h-auto w-9 sm:w-5" src="./images/Amazon_icon 1.svg" alt="amazon">
+          </div>
+        </div>
+      </div>
+
+      <div id="mobile-phone-UI" class="flex justify-center w-full sm:w-1/2">
+        <img class="h-auto max-w-[80%] sm:max-w-[420px] md:max-w-[500px] w-full" src="./images/Image.svg" alt="phone-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="body-section" class="w-full mt-12 mb-8 sm:px-8">
+    <div id="body-container" class="w-full">
+      <div id="join-payload">
+        <div class="flex flex-col items-center ">
+          <h3 class="text-[#358DFF] text-3xl font-semibold">
+            Join Payload Today
+          </h3>
+          <p class="text-center font-light text-lg max-w-70 sm:max-w-90">
+            A better way to move money around the world. 
+            The Future of International Payments
+          </p>
+        </div>
+        <div>
+          <div id="top-cards" class="sm:flex items-center justify-evenly mb-10 px-5 sm:space-x-3">
+            <div class="flex flex-col items-center mt-16">
+              <img class="h-auto w-10" src="./images/mdi_bank-transfer.svg" alt="bank-transfer">
+              <div class="text-center">
+                <h4 class="font-semibold text-2xl">
+                  Seamless Transfers
+                </h4>
+                <p class="font-light text-lg max-w-62">
+                  Receive payments from your customers. 
+                  Get paid the way you choose.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center mt-16">
+              <img class="h-auto w-10" src="./images/fluent_fast-acceleration-24-filled.svg" alt="acceleration">
+              <div class="text-center">
+                <h4 class="font-semibold text-2xl">
+                  Fast Payouts
+                </h4>
+                <p class="font-light text-lg max-w-60">
+                  Fast and quick withdrawals through our special payment methods 
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center mt-16">
+              <img class="h-auto w-10" src="./images/ic_round-discount.svg" alt="discount">
+              <div class="text-center">
+                <h4 class="font-semibold text-2xl">
+                  Enjoy Discounts
+                </h4>
+                <p class="font-light text-lg max-w-60">
+                  Enjoy massive discounts during festive seasons and save up to 50%
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="bottom-cards" class="sm:flex items-center justify-center gap-16 px-5">
+            <div class="flex flex-col items-center mt-16">
+              <img class="h-auto w-10" src="./images/logos_google-developers.svg" alt="developer-svg">
+              <div class="text-center">
+                <h4 class="font-semibold text-2xl">
+                  Developer options
+                </h4>
+                <p class="font-light text-lg max-w-60 ">
+                  Integrate the payload API’s into you business, 
+                  to process payments
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center mt-16">
+              <img class="h-auto w-10" src="./images/fluent_target-arrow-16-filled.svg" alt="target-svg">
+              <div class="text-center">
+                <h4 class="font-semibold text-2xl">
+                  Refer and Earn
+                </h4>
+                <p class="font-light text-lg max-w-58">
+                  Refer other businesses and earn 40% of their first payment
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="payment-plan-section" class="sm:flex flex-row-reverse sm:items-center sm:justify-center bg-[#F0F1F2] lg:mx-4 mt-32 sm:mt-16 md:gap-12 lg:gap-16">
+        <div class="flex flex-col sm:justify-center w-full pt-16 lg:pt-4  px-2 ">
+          <h3 class="font-bold text-4xl sm:text-[26px] md:text-[30px] lg:text-[45px] w-full max-w-72 lg:max-w-140 md:max-w-105 sm:max-w-80 mb-2">
+            Flexible payment plans to meet your business needs
+          </h3>
+          <p class="font-light text-xl max-w-[334px] sm:max-w-[360px] sm:text-[15.75px]">
+            We offer a safer and less expensive way to send money 
+            to your loved, Removing barriers, connecting the world.
+          </p>
+          <div id="get-started-btn" class="inline-flex gap-2 items-center cursor-pointer text-[#358DFF] border-1 border-[#358DFF] rounded-lg px-5 py-2 mt-6 max-w-[130px]">
+            <span>Get Started</span>
+            <img class="w-3 h-auto" src="./images/Vector.svg" alt="vector">
+          </div>
+        </div>
+
+        <div id="image-container" class="mt-12 sm:ml-6 sm:mr-8 mb-12 pb-10">
+          <div class=" flex flex-col w-full items-center px-2">
+            <img class="w-full max-w-[343px] max-h-[384px]" src="./images/Rectangle 7.png" alt="rectangle-7">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col mt-16 ">
+        <div class="flex flex-col items-center mb-16">
+          <h3 class="text-[#358DFF] text-[35px] sm:text-[28px] lg:text-[40px] font-semibold">
+            Companies Trust Us
+          </h3>
+          <p class="text-center font-light text-[22px] sm:text-[18px] lg:text-[25px] max-w-85 sm:max-w-95 md:max-w-100 lg:max-w-130">
+            We process payments for businesses and services in different sectors, 
+            both home and abroad
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row w-full items-center justify-between gap-x-4 px-2 gap-y-18">
+          <div class="relative bg-[url('/images/Frame-14.png')] bg-no-repeat bg-cover bg-center w-full max-w-[330px] h-[430px] flex items-center justify-center rounded-t-lg">
+            <div class="absolute text-white bottom-12 left-3">
+              <h3>Startups</h3>
+              <p class="font-light mb-2 max-w-48">
+                Integrate the payload API’s into you 
+                business, to process payments
+              </p>
+              <button class="flex items-center  text-sm font-light cursor-pointer w-full max-w-26 px-2 py-1 gap-2 rounded-lg border-1 border-white">Learn more <img class="translate-y-0.5" src="./images/Line 2.png" alt="line"></button>
+            </div>
+          </div>
+          <div class="relative bg-[url('/images/Frame-15.png')] bg-no-repeat bg-cover bg-center w-full max-w-[330px] h-[430px] flex items-center justify-center rounded-t-lg">
+            <div class="absolute text-white bottom-12 left-3">
+              <h3>E-commerce</h3>
+              <p class="font-light mb-2 max-w-48">
+                Integrate the payload API’s into you 
+                business, to process payments
+              </p>
+              <button class="flex items-center text-sm font-light cursor-pointer w-full max-w-26 px-2 py-1 gap-2 rounded-lg border-1 border-white">Learn more <img class="translate-y-0.5" src="./images/Line 2.png" alt="line"></button>
+            </div>
+          </div>
+          <div class="relative bg-[url('/images/Frame-16.png')] bg-no-repeat bg-cover bg-center w-full max-w-[330px] h-[430px] flex items-center justify-center rounded-t-lg">
+            <div class="absolute text-white bottom-12 left-3">
+              <h3>Fintechs</h3>
+              <p class="font-light mb-2 max-w-48">
+                Integrate the payload API’s into you 
+                business, to process payments
+              </p>
+              <button class="flex items-center text-sm font-light cursor-pointer w-full max-w-26 px-2 py-1 gap-2 rounded-lg border-1 border-white">Learn more <img class="translate-y-0.5" src="./images/Line 2.png" alt="line"></button>
+            </div>
+          </div>
+          <div class="relative bg-[url('/images/Frame-17.png')] bg-no-repeat bg-cover bg-center w-full max-w-[330px] h-[430px] flex items-center justify-center rounded-t-lg">
+            <div class="absolute text-white bottom-12 left-3">
+              <h3>Saas</h3>
+              <p class="font-light mb-2 max-w-48">
+                Integrate the payload API’s into you 
+                business, to process payments
+              </p>
+              <button class="flex items-center text-sm font-light cursor-pointer w-full max-w-26 px-2 py-1 gap-2 rounded-lg border-1 border-white">Learn more <img class="translate-y-0.5" src="./images/Line 2.png" alt="line"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sm:flex justify-between mt-12">
+        <div class="flex flex-col justify-center px-2 w-full">
+          <h3 class="font-bold w-full text-[40px] lg:text-[40px] max-w-77 lg:max-w-110 sm:max-w-82">
+            Are you ready to take your business Global!
+          </h3>
+          <p class="text-[18px] lg:text-[18px] max-w-76 lg:max-w-120 sm:max-w-100">
+            We offer a safer and less expensive way to send money 
+            to your loved, Removing barriers, connecting the world.
+          </p>
+          <div id="get-started-section" class="hidden sm:flex w-full gap-6  mt-6 mb-16 sm:mb-12">
+            <button class="w-32 h-12 text-nowrap bg-[#0074B7] text-white p-2 cursor-pointer rounded-xl">
+              Get Started
+            </button>
+            <div class="flex gap-2 items-center cursor-pointer">
+              <img class="w-1/2 " src="./images/play.svg" alt="play">
+              <span class="text-sm text-nowrap text-[#0074B7]">Live Demo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center w-full gap-x-3 lg:gap-x-6 mr-2 mt-8">
+          <div class="flex flex-col bg-[#90C1FF] w-full max-w-[320px] max-h-[300px] rounded-lg space-y-5 py-5 mb-6">
+            <img class="w-[45px] h-[44px] ml-3" src="./images/fluent_building.svg" alt="for-business">
+            <h3 class="font-bold text-[24px] ml-3.5">
+              For Businesses
+            </h3>
+            <p class="ml-3.5 max-w-58">
+              Unlock the potentials of your business with payload
+            </p>
+            <button class="flex items-center text-white text-[20px] font-light cursor-pointer gap-2 ml-3.5 mb-8">
+              Pricing 
+              <img  class="translate-y-0.5" src="./images/Line 2.png" alt="line">
+            </button>
+          </div>
+          <div class="flex flex-col bg-[#fc9e9e] w-full max-w-[320px] max-h-[300px] rounded-lg space-y-5 py-5 mb-6">
+            <img class="w-[45px] h-[44px] ml-3" src="./images/fluent_developer.svg" alt="for-business">
+            <h3 class="font-bold text-[24px] ml-3.5">
+              For Businesses
+            </h3>
+            <p class="ml-3.5 max-w-58">
+              Unlock the potentials of your business with payload
+            </p>
+            <button class="flex items-center text-white text-[20px] font-light cursor-pointer gap-2 ml-3.5 mb-8">
+              Pricing 
+              <img  class="translate-y-0.5" src="./images/Line 2.png" alt="line">
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section>
+    <div id="footer-section" class="w-full bg-[#131825] px-4 md:px-12">
+      <div id="top" class="pt-18 text-white sm:flex sm:space-x-18">
+        <div >
+            <div id="logo-contents">
+            <img class="w-full h-auto max-w-[350px]" src="./images/Logo.svg" alt="logo">
+          </div>
+          <h3 class="text-[32px] max-w-88 mt-6 mb-6 ">
+            Removing barriers, connecting the world.
+          </h3>
+          <div class="flex w-full space-x-1.5 mb-12 ">
+            <img class="w-full h-auto max-w-[75px] cursor-pointer" src="./images/twitter.svg" alt="twitter">
+            <img class="w-full h-auto max-w-[75px] cursor-pointer" src="./images/linkedin.svg" alt="linkedin">
+            <img class="w-full h-auto max-w-[75px] cursor-pointer" src="./images/instagram.svg" alt="instagram">
+          </div>
+        </div>
+        
+        <div id="links-menu-content-1" class="flex justify-between text-[24px] font-light mb-12 sm:pt-8">
+          <div class="mr-8 sm:space-x-12">
+            <h3 class="text-[28px] font-bold">
+              Payments
+            </h3>
+            <p><a href="#">Startups</a></p>
+            <p><a href="#">Saas</a></p>
+            <p><a href="#">Fintechs</a></p>
+          </div>
+          <div class="pr-4">
+            <h3 class="text-[28px] font-bold">
+              Pricing
+            </h3>
+            <p><a href="#">How it works</a></p>
+            <p><a href="#">Check Demo</a></p>
+            <p><a href="#">Earn</a></p>
+            <p><a href="#">Tokens</a></p>
+          </div>
+        </div>
+        <div id="links-menu-content-2" class="flex justify-between text-[24px] font-light sm:pt-8">
+          <div class="mr-8 sm:space-x-12">
+            <h3 class="text-[28px] font-bold">
+              Developers
+            </h3>
+            <p><a href="#">API'S</a></p>
+            <p><a href="#">Documentations</a></p>
+            <p><a href="#">Libraries</a></p>
+          </div>
+          <div class="pr-4">
+            <h3 class="text-[28px] font-bold">
+              About Us
+            </h3>
+            <p><a href="#">Company</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Terms of use</a></p>
+            <p><a href="#">Security</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="bottom" class="text-[24px] font-light pb-16">
+        <div class="text-white">
+          <h3 class="text-[28px] font-bold">
+            Contact
+          </h3>
+          <p class="w-full max-w-85">
+            101 Mohammed airport road, Lekki, Lagos state
+          </p>
+          <span>All right reserved. Payload 2022</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script>
+    const harmburgerMenu = document.getElementById('harmburger-icon');
+    const mobileMenu = document.getElementById('menu-container');
+    menuOpenIcon = document.getElementById('open-icon');
+    menuCloseIcon = document.getElementById('close-icon');
+    
+    harmburgerMenu.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const menuClose = mobileMenu.classList.contains('hidden');
+
+      if (menuClose) {
+        mobileMenu.classList.remove('hidden');
+        menuOpenIcon.classList.add('hidden');
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      const isClickInsideMenu = mobileMenu.contains(e.target);
+
+      if (!isClickInsideMenu) {
+        mobileMenu.classList.add('hidden');
+        menuOpenIcon.classList.remove('hidden');
+      }
+    });
+
+  </script>
+</body>
+</html>
