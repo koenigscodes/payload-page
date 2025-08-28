@@ -561,17 +561,17 @@
   .bg-black {
     background-color: var(--color-black);
   }
-  .bg-\[url\(\'images\/Frame-14\.png\'\)\] {
-    background-image: url('images/Frame-14.png');
+  .bg-\[url\(\'\.\/images\/Frame-14\.png\'\)\] {
+    background-image: url('./images/Frame-14.png');
   }
-  .bg-\[url\(\'images\/Frame-15\.png\'\)\] {
-    background-image: url('images/Frame-15.png');
+  .bg-\[url\(\'\.\/images\/Frame-15\.png\'\)\] {
+    background-image: url('./images/Frame-15.png');
   }
-  .bg-\[url\(\'images\/Frame-16\.png\'\)\] {
-    background-image: url('images/Frame-16.png');
+  .bg-\[url\(\'\.\/images\/Frame-16\.png\'\)\] {
+    background-image: url('./images/Frame-16.png');
   }
-  .bg-\[url\(\'images\/Frame-17\.png\'\)\] {
-    background-image: url('images/Frame-17.png');
+  .bg-\[url\(\'\.\/images\/Frame-17\.png\'\)\] {
+    background-image: url('./images/Frame-17.png');
   }
   .bg-cover {
     background-size: cover;
